@@ -140,6 +140,6 @@ print(new_char) # 출력: A
 [OX퀴즈](https://school.programmers.co.kr/learn/courses/30/lessons/120907) </br>
 [숨어있는 숮자의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/120864) </br>
 [인덱스 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/120895) </br>
-(https://school.programmers.co.kr/learn/courses/30/lessons/120921) </br>
+[문자열_밀기](https://school.programmers.co.kr/learn/courses/30/lessons/120921) </br>
 (https://school.programmers.co.kr/learn/courses/30/lessons/140108) </br>
 [옹알이(2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499) </br>

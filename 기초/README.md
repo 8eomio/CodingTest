@@ -143,3 +143,13 @@ print(new_char) # 출력: A
 [문자열 밀기](https://school.programmers.co.kr/learn/courses/30/lessons/120921) </br>
 [문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) </br>
 [옹알이(2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499) </br>
+
+# 구현
+### 프로그래머스 문제
+[가위 바위 보](https://school.programmers.co.kr/learn/courses/30/lessons/120839) </br>
+[연속된 수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120923) </br>
+[치킨 쿠폰](https://school.programmers.co.kr/learn/courses/30/lessons/120884) </br>
+[k의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120887) </br>
+[369게임](https://school.programmers.co.kr/learn/courses/30/lessons/120891) </br>
+[카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) </br>
+[로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) </br>

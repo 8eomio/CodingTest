@@ -4,7 +4,7 @@
 
 ```python
 a = "hobby"
-a,count = ('b') # 2
+a.count = ('b') # 2
 ```
 문자열 중 문자 b의 개수를 돌려줌.
 

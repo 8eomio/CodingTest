@@ -100,7 +100,7 @@ dictionary = {"key": "value"}
 ```
 
 ### defaultdict
-딕셔너리는 존재하지 않는 키를 참조하려고 하면 에러가 발생하기 때문에, 키를 참조하기 전에 키가 존재하는지를 미리 확인해야만 합니다. 
+딕셔너리는 존재하지 않는 키를 참조하려고 하면 에러가 발생하기 때문에, 키를 참조하기 전에 키가 존재하는지를 미리 확인해야만 함. 
 
 ```python
 from collections import defaultdict
@@ -109,7 +109,7 @@ if "this" in temp:
   print(temp["this"])
 ```
 
-defaultdict는 타입을 입력으로 받고 해당 타입의 기본값을 존재하지 않는 키의 기본값으로 사용합니다. 예를 들어, int의 경우는 기본값이 0 입니다. 
+defaultdict는 타입을 입력으로 받고 해당 타입의 기본값을 존재하지 않는 키의 기본값으로 사용합니다. 예를 들어, int의 경우는 기본값이 0. 
 
 ```python
 int_dict = defaultdict(int)
@@ -118,14 +118,14 @@ int_dict("b"]
 print(int_dict)
 ```
 
-list 타입의 경우는 비어 있는 리스트를 기본값으로 사용합니다. 
+list 타입의 경우는 비어 있는 리스트를 기본값으로 사용. 
 ```python
 list_dict = defaultdict(list)
 list_dict["a"].append(1)
 list_dict("b"]
 print(int_dict)
 ```
-dict 타입은 비어 있는 딕셔너리를 기본값으로 사용합니다. 
+dict 타입은 비어 있는 딕셔너리를 기본값으로 사용. 
 ```python
 dict_dict = defaultdict(dict)
 dict_dict["a"]["b"] = 1
@@ -133,7 +133,7 @@ dict_dict("c"]
 print(dict_dict)
 ```
 ## Counter
-Counter는 딕셔너리처럼 키와 밸류로 구성된 자료형으로, 딕셔너리와 거의 동일하게 사용할 수 있습니다. Counter를 사용하면 원소별로 등장 횟수를 쉽게 셀 수 있습니다. 예를 들어, 다음과 같이 과일이 여러 번 들어 있는 리스트를 생각해 보겠습니다. 
+Counter는 딕셔너리처럼 키와 밸류로 구성된 자료형으로, 딕셔너리와 거의 동일하게 사용할 수 있음. Counter를 사용하면 원소별로 등장 횟수를 쉽게 셀 수 있음. 
 ```python
 fruits = ["orange" , "pear", "apple", "apple", "apple", "pear"]
 ```
@@ -144,18 +144,79 @@ from collections import Counter
   print(count)
 ```
 
-count를 빈도순으로 내림차순 정렬한 리스트 frequency 를 만들어 보겠습니다. 여기서는 reverse = True 를 써도 되지만 다음과 같이 더 간결하게 작성할 수 있습니다.
+count를 빈도순으로 내림차순 정렬한 리스트 frequency 를 만들 때. 여기서는 reverse = True 를 써도 되지만 다음과 같이 더 간결하게 작성할 수 있음.
 ```python
 frequency = sorted(count.items(), key = lambda x: -x[1])
 print(frequency)
 # [("apple", 3), ("pear", 2), ("orange",1)]
 ```
-만일 Counter를 쓴다면, 아래와 같이 할 수 있습니다.
+만일 Counter를 쓴다면, 아래와 같이 할 수 있음.
 ```python
 count = Counter(fruits)
 count.most_common()
 # [("apple", 3), ("pear", 2), ("orange",1)]
 ```
+
+## 셋[집합]
+셋은 주로 중복값을 제거하거나, 중복이 허용되지 않는 값의 목록을 만을 때 사용함. 
+
+### 셋의 연산 
+```python
+nums1 = {1,2,3}
+nums2 = {2,3,4}
+```
+#### 교집합
+```python
+nums1 & nums2 # {2, 3}
+```
+#### 차집합 
+```python
+nums1 - nums2 # {1}
+nums2 - nums1 # {4}
+```
+#### 합집합
+```python
+nums1 | nums2 # {1,2,3,4}
+```
+
+## 스택 
+### pop/push
+```python
+stack = []
+stack.append(1)
+stack.append(2)
+stack.pop()
+print(stack) # [1]
+```
+## 큐와 데크
+
+### pop/push 
+```python
+queue = []
+queue.append(1)
+queue.append(2)
+queue.pop(0)
+print(queue) # [2]
+```
+### 데크(dequeue)
+스택과 큐의 특징을 모두 가지고 있는 자료구조. 즉 Pop 과 push를 자료형의 앞과 뒤에서 모두 할 수 있음. 
+```python
+dequeue = []
+dequeue.append(1)
+dequeue.appned(2)
+dequeue.pop(0)
+dequeue.append(3)
+dequeue.pop()
+print(dequeue) # [2] 
+```
+```python
+from collections improt deque
+dq = deque([1,2,3,4,5])
+print(dq) #deque([1,2,3,4,5])
+print(dq.pop()) # 5
+print(dq.popleft()) # 1
+```
+
 ### 프로그래머스 문제 
 [옹알이(1)](https://school.programmers.co.kr/learn/courses/30/lessons/120956) </br>
 [문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902) </br>

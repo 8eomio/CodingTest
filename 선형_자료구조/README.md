@@ -217,54 +217,34 @@ print(dq.pop()) # 5
 print(dq.popleft()) # 1
 ```
 
-### 프로그래머스 문제 
-[옹알이(1)](https://school.programmers.co.kr/learn/courses/30/lessons/120956) </br>
-[문자열 계산하기](https://school.programmers.co.kr/learn/courses/30/lessons/120902) </br>
-[OX퀴즈](https://school.programmers.co.kr/learn/courses/30/lessons/120907) </br>
-[숨어있는 숮자의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/120864) </br>
-[인덱스 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/120895) </br>
-[문자열 밀기](https://school.programmers.co.kr/learn/courses/30/lessons/120921) </br>
-[문자열 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/140108) </br>
-[옹알이(2)](https://school.programmers.co.kr/learn/courses/30/lessons/133499) </br>
-
-# 구현
 ### 프로그래머스 문제
-[가위 바위 보](https://school.programmers.co.kr/learn/courses/30/lessons/120839) </br>
-[연속된 수의 합](https://school.programmers.co.kr/learn/courses/30/lessons/120923) </br>
-[치킨 쿠폰](https://school.programmers.co.kr/learn/courses/30/lessons/120884) </br>
-[k의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120887) </br>
-[369게임](https://school.programmers.co.kr/learn/courses/30/lessons/120891) </br>
-[카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) </br>
-[로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484) </br>
+[잘라서 배열로 저장하기](https://school.programmers.co.kr/learn/courses/30/lessons/120913) </br>
+[2차원으로 만들기] (https://school.programmers.co.kr/learn/courses/30/lessons/120842) </br>
+[7의 개수] (https://school.programmers.co.kr/learn/courses/30/lessons/120912) </br>
+[가장 큰 수 찾기] (https://school.programmers.co.kr/learn/courses/30/lessons/120899) </br>
+[모의고사] (https://school.programmers.co.kr/learn/courses/30/lessons/42840) </br>
+[행렬의 덧셈 1] (https://school.programmers.co.kr/learn/courses/30/lessons/12950) </br>
+[바탕화면 정리1] (https://school.programmers.co.kr/learn/courses/30/lessons/161990) </br>
 
-### 프로그래머스 문제
-(잘라서 배열로 저장하기) [https://school.programmers.co.kr/learn/courses/30/lessons/120913]
-(2차원으로 만들기) [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
-(7의 개수) [https://school.programmers.co.kr/learn/courses/30/lessons/120912]
-(가장 큰 수 찾기) [https://school.programmers.co.kr/learn/courses/30/lessons/120899]
-(모의고사) [https://school.programmers.co.kr/learn/courses/30/lessons/42840]
-(행렬의 덧셈 1) [https://school.programmers.co.kr/learn/courses/30/lessons/12950]
-(바탕화면 정리1) [https://school.programmers.co.kr/learn/courses/30/lessons/161990]
+[로그인 성공?] (https://school.programmers.co.kr/learn/courses/30/lessons/120883) </br>
+[성격 유형 검사하기] (https://school.programmers.co.kr/learn/courses/30/lessons/118666) </br>
+[가장 가까운 같은 글자] (https://school.programmers.co.kr/learn/courses/30/lessons/142086) </br>
+[숫자 문자열과 영단어] (https://school.programmers.co.kr/learn/courses/30/lessons/81301) </br>
+[완주하지 못한 선수] (https://school.programmers.co.kr/learn/courses/30/lessons/42576) </br>
+[전화번호 목록] (https://school.programmers.co.kr/learn/courses/30/lessons/42577) </br>
+[의상] (https://school.programmers.co.kr/learn/courses/30/lessons/42578) </br>
+[베스트앨범] (https://school.programmers.co.kr/learn/courses/30/lessons/42579) </br>
 
-(로그인 성공?) [https://school.programmers.co.kr/learn/courses/30/lessons/120883]
-(성격 유형 검사하기) [https://school.programmers.co.kr/learn/courses/30/lessons/118666] 
-(가장 가까운 같은 글자) [https://school.programmers.co.kr/learn/courses/30/lessons/142086]
-(숫자 문자열과 영단어) [https://school.programmers.co.kr/learn/courses/30/lessons/81301]
-(완주하지 못한 선수) [https://school.programmers.co.kr/learn/courses/30/lessons/42576]
-(전화번호 목록) [https://school.programmers.co.kr/learn/courses/30/lessons/42577]
-(의상) [https://school.programmers.co.kr/learn/courses/30/lessons/42578]
-(베스트앨범) [https://school.programmers.co.kr/learn/courses/30/lessons/42579]
-
-(외계어 사전) [https://school.programmers.co.kr/learn/courses/30/lessons/120869]
-(중복된 문자 제거) [https://school.programmers.co.kr/learn/courses/30/lessons/120888]
-(최빈값 구하기) [https://school.programmers.co.kr/learn/courses/30/lessons/120812]
-(폰켓몬) [https://school.programmers.co.kr/learn/courses/30/lessons/1845]
-(둘만의 암호) [https://school.programmers.co.kr/learn/courses/30/lessons/155652]
-(신고 결과 받기) [https://school.programmers.co.kr/learn/courses/30/lessons/92334]
-(컨트롤 제트) [https://school.programmers.co.kr/learn/courses/30/lessons/120853]
-(같은 숫자는 싫어) [https://school.programmers.co.kr/learn/courses/30/lessons/12906]
-(햄버거 만들기) [https://school.programmers.co.kr/learn/courses/30/lessons/133502]
-(올바른 괄호) [https://school.programmers.co.kr/learn/courses/30/lessons/12909]
-(배열 회전시키기) [https://school.programmers.co.kr/learn/courses/30/lessons/120844]
-(기능개발) [https://school.programmers.co.kr/learn/courses/30/lessons/42586]
-(프로세스) [https://school.programmers.co.kr/learn/courses/30/lessons/42587]
+[외계어 사전] (https://school.programmers.co.kr/learn/courses/30/lessons/120869) </br>
+[중복된 문자 제거] (https://school.programmers.co.kr/learn/courses/30/lessons/120888) </br>
+[최빈값 구하기] (https://school.programmers.co.kr/learn/courses/30/lessons/120812) </br>
+[폰켓몬] (https://school.programmers.co.kr/learn/courses/30/lessons/1845) </br>
+[둘만의 암호] (https://school.programmers.co.kr/learn/courses/30/lessons/155652) </br>
+[신고 결과 받기] (https://school.programmers.co.kr/learn/courses/30/lessons/92334) </br>
+[컨트롤 제트] (https://school.programmers.co.kr/learn/courses/30/lessons/120853) </br>
+[같은 숫자는 싫어] (https://school.programmers.co.kr/learn/courses/30/lessons/12906) </br>
+[햄버거 만들기] (https://school.programmers.co.kr/learn/courses/30/lessons/133502) </br>
+[올바른 괄호] (https://school.programmers.co.kr/learn/courses/30/lessons/12909) </br>
+[배열 회전시키기] (https://school.programmers.co.kr/learn/courses/30/lessons/120844) </br>
+[기능개발] (https://school.programmers.co.kr/learn/courses/30/lessons/42586) </br>
+[프로세스] (https://school.programmers.co.kr/learn/courses/30/lessons/42587) </br>

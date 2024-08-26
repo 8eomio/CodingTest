@@ -6,11 +6,14 @@ def solution(n):
     num=1
     d=0
     while num<=(n+1)*n//2:
+        
         arr[y][x]=num
         ny=y+dy[d]
         nx=x+dx[d]
         num+=1
-        if 0<=ny<n and 0<=nx<=ny and b[ny][nx]==0:
+
+        if 0<=ny<n and 0<=nx<=ny and arr[ny][nx]==0:
+
             y,x=ny,nx
         else:
             d=(d+1)%3
@@ -18,4 +21,3 @@ def solution(n):
             x+=dx[d]
     return sum(arr,[])
     
-
